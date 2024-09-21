@@ -1,33 +1,75 @@
-
-#### 2. Create an `index.html` File for More Control:
-If you want a custom website or more control over the layout, you can create an `index.html` file in your repository. This will allow you to control exactly what is shown on your GitHub Pages site.
-
-Here's an example `index.html`:
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pythonwe Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        code {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to the Pythonwe Project</h1>
-    <p>This is the home page for the Pythonwe project, a Python utility library.</p>
+    <header>
+        <h1>Welcome to the Pythonwe Project</h1>
+    </header>
 
-    <h2>Features</h2>
-    <ul>
-        <li>Easy-to-use APIs</li>
-        <li>Open-source</li>
-        <li>Detailed documentation</li>
-    </ul>
+    <section>
+        <p>This is the home page for the Pythonwe project, a Python utility library.</p>
 
-    <h2>Getting Started</h2>
-    <p>You can clone the repository using the following command:</p>
-    <pre><code>git clone https://github.com/botboy223/pythonwe.git</code></pre>
+        <h2>Features</h2>
+        <ul>
+            <li>Easy-to-use APIs</li>
+            <li>Open-source</li>
+            <li>Detailed documentation</li>
+        </ul>
 
-    <h2>License</h2>
-    <p>This project is licensed under the MIT License.</p>
+        <h2>Getting Started</h2>
+        <p>You can clone the repository using the following command:</p>
+        <pre><code>git clone https://github.com/botboy223/pythonwe.git</code></pre>
+
+        <h2>License</h2>
+        <p>This project is licensed under the <strong>MIT License</strong>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pythonwe. All rights reserved.</p>
+    </footer>
 </body>
 </html>
